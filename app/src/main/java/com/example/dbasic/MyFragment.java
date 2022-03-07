@@ -37,11 +37,12 @@ public class MyFragment extends Fragment {
 
         Bundle bundle = this.getArguments();
         String fName = bundle.getString("keyName");
-        //String fName = bundle.getString("keyName");
         String fNumber = bundle.getString("keyNumber");
         fragmentMyBinding.nameTv.setText(fName);
         fragmentMyBinding.numberTv.setText(fNumber);
 
         return fragmentMyBinding.getRoot();
+
+//        usse it for checking soure tree
     }
 }
